@@ -1,0 +1,13 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model maisons_appartments {
+  building_id_building       BigInt
+  appartments_id_appartement BigInt @unique(map: "uk_fgvc3ykvxo74kumays00gxlnx")
+}
