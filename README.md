@@ -1,29 +1,17 @@
-# Property Pulse
+# Senlogis
 
-> A web application to help you find your next rental property.
-
-This is the main project from my [Next 14 From Scratch Course](https://www.traversymedia.com/nextjs-from-scratch)
-
-The `_theme_files` folder contains the pure HTML files with Tailwind classes.
-
-<img src="/public/images/screen.jpg" />
+> A web application to help you find your next rental property (inspired by property pulse).
 
 ## Features
 
 Here are some of the current features that Property Pulse has:
 
-- [x] User authentication with Google & Next Auth
-- [x] User authorization
 - [x] Route protection
-- [x] User profile with user listings
-- [x] Property Listing CRUD
-- [x] Property image upload (Multiple)
+- [x] Property Listing
 - [x] Property search
-- [x] Internal messages with 'unread' notifications
 - [x] Photoswipe image gallery
 - [x] Mapbox maps
 - [x] Toast notifications
-- [x] Property bookmarking / saved properties
 - [x] Property sharing to social media
 - [x] Loading spinners
 - [x] Responsive design (Tailwind)
@@ -39,10 +27,7 @@ Property Pulse uses the following technologies:
 - [NextAuth.js](https://next-auth.js.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Photoswipe](https://photoswipe.com/)
-- [Cloudinary](https://cloudinary.com/)
 - [Mapbox](https://www.mapbox.com/)
-- [React Map GL](https://visgl.github.io/react-map-gl/)
-- [React Geocode](https://www.npmjs.com/package/react-geocode)
 - [React Spinners](https://www.npmjs.com/package/react-spinners)
 - [React Toastify](https://fkhadra.github.io/react-toastify/)
 - [React Share](https://www.npmjs.com/package/react-share)
@@ -53,9 +38,6 @@ Property Pulse uses the following technologies:
 
 - Node.js version 18 or higher
 - MongoDB Atlas account and a cluster. Sign up and create a cluster at [MongoDB](https://www.mongodb.com/)
-- Cloudinary account. Sign up at [Cloudinary](https://cloudinary.com/)
-- Google console account. Sign up at [Google Cloud](https://console.cloud.google.com/)
-- Mapbox account. Sign up at [Mapbox](https://www.mapbox.com/)
 
 ### `.env` File
 
